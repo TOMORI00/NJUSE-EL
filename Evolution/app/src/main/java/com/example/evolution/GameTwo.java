@@ -90,7 +90,7 @@ public class GameTwo extends Activity {
         new overlord2().start();
 
         ObjectAnimator objectAnimator  = ObjectAnimator.ofFloat(goal, "alpha",0f,1f);
-        objectAnimator.setDuration(20000);
+        objectAnimator.setDuration(18000);
         objectAnimator.start();
         tip();
         dog.setImageResource(R.drawable.dog_1);

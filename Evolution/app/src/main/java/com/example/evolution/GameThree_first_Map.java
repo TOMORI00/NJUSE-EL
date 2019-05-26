@@ -108,8 +108,8 @@ public class GameThree_first_Map extends Activity {
         lock12 = true;
         final AlertDialog.Builder alterDialog = new AlertDialog.Builder(GameThree_first_Map.this);
         alterDialog.setTitle("训练程序01");
-        alterDialog.setMessage("这种芯片的计算能力是训练出来的哦，编辑一段指令让狗子到达中心的终点吧");
-        alterDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        alterDialog.setMessage("这种芯片的计算能力是训练出来的哦，编辑一段指令让狗子到达地图中心的终点吧");
+        alterDialog.setPositiveButton("我来试试", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
             }

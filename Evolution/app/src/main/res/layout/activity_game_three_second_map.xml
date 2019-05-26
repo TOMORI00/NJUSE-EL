@@ -13,7 +13,9 @@
         android:layout_width="51dp"
         android:layout_height="70dp"
         android:layout_marginTop="130dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,8 +24,11 @@
         android:layout_width="51dp"
         android:layout_height="70dp"
         android:layout_marginStart="154dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step12"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +38,9 @@
         android:layout_height="70dp"
         android:layout_marginStart="51dp"
         android:layout_marginTop="129dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,7 +50,9 @@
         android:layout_height="70dp"
         android:layout_marginStart="102dp"
         android:layout_marginTop="129dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,7 +62,9 @@
         android:layout_height="70dp"
         android:layout_marginStart="102dp"
         android:layout_marginTop="59dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,8 +73,11 @@
         android:layout_width="51dp"
         android:layout_height="70dp"
         android:layout_marginStart="154dp"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,7 +86,9 @@
         android:layout_width="52dp"
         android:layout_height="70dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,8 +97,11 @@
         android:layout_width="52dp"
         android:layout_height="70dp"
         android:layout_marginStart="205dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step13"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -92,7 +111,10 @@
         android:layout_height="70dp"
         android:layout_marginStart="308dp"
         android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,7 +124,9 @@
         android:layout_height="70dp"
         android:layout_marginStart="51dp"
         android:layout_marginTop="59dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,8 +135,11 @@
         android:layout_width="52dp"
         android:layout_height="70dp"
         android:layout_marginStart="205dp"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,19 +147,20 @@
         android:id="@+id/step6"
         android:layout_width="52dp"
         android:layout_height="70dp"
-        android:layout_marginStart="257dp"
-        android:layout_marginTop="59dp"
         android:src="@drawable/empty"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="60dp" />
 
     <ImageView
         android:id="@+id/step7"
         android:layout_width="52dp"
         android:layout_height="70dp"
         android:layout_marginStart="309dp"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,8 +169,11 @@
         android:layout_width="52dp"
         android:layout_height="70dp"
         android:layout_marginStart="257dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/empty"
+        app:layout_constraintEnd_toStartOf="@+id/step14"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -222,7 +253,7 @@
         android:layout_height="350dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:src="@drawable/gamethree_two"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -247,10 +278,13 @@
         android:layout_width="129dp"
         android:layout_height="50dp"
         android:layout_marginStart="208dp"
-        android:layout_marginTop="306dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/restartbutton"
         android:onClick="clear"
         android:text="restart"
+        app:layout_constraintEnd_toStartOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -259,7 +293,7 @@
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="213dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/confirmbutton"
         android:onClick="confirm"

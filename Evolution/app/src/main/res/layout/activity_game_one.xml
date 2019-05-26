@@ -14,6 +14,7 @@
             android:layout_width="730dp"
             android:layout_height="410dp"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/background_for_game_one"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

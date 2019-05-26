@@ -25,7 +25,7 @@ public class DogNewLife extends Activity {
     private Timer timer;
     private ArrayList<String> instructions;
     private Handler handler;
-    private int i;
+    private int i = 0;
     private int upstep;
     private int downstep;
     private int leftstep;
@@ -46,7 +46,7 @@ public class DogNewLife extends Activity {
         dog = findViewById(R.id.imageView9);
         handler = new Handler();
         instructions = new ArrayList<String>();
-        instructions.add("down");
+//        instructions.add("down");
         instructions.add("down");
         instructions.add("right");
         instructions.add("down");
@@ -78,8 +78,22 @@ public class DogNewLife extends Activity {
         instructions.add("left");
         instructions.add("down");
         instructions.add("left");
-        new Run().start();
+        new Ready().start();
     }
+
+    class Ready extends Thread {
+        @Override
+        public void run() {
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            step = (imageView8.getRight() - imageView8.getLeft()) / 10 - 2;
+            new Run().start();
+        }
+    }
+
 
     class Run extends Thread {
         @Override
@@ -113,8 +127,8 @@ public class DogNewLife extends Activity {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                upstep++;
                                 step = (imageView8.getRight() - imageView8.getLeft()) / 10 - 2;
+                                upstep++;
                                 upAnimator = ObjectAnimator.ofFloat(dog, "translationY",(dog.getTranslationY()-step));
                                 upAnimator.start();
                                 i++;
@@ -125,8 +139,8 @@ public class DogNewLife extends Activity {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                downstep++;
                                 step = (imageView8.getRight() - imageView8.getLeft()) / 10 - 2;
+                                downstep++;
                                 downAnimator = ObjectAnimator.ofFloat(dog, "translationY",(dog.getTranslationY()+step));
                                 downAnimator.start();
                                 i++;
@@ -137,8 +151,8 @@ public class DogNewLife extends Activity {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                leftstep++;
                                 step = (imageView8.getRight() - imageView8.getLeft()) / 10 - 2;
+                                leftstep++;
                                 leftAnimator = ObjectAnimator.ofFloat(dog, "translationX",(dog.getTranslationX()-step));
                                 leftAnimator.start();
                                 i++;
@@ -149,8 +163,8 @@ public class DogNewLife extends Activity {
                         handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                rightstep++;
                                 step = (imageView8.getRight() - imageView8.getLeft()) / 10 - 2;
+                                rightstep++;
                                 rightAnimator = ObjectAnimator.ofFloat(dog, "translationX",(dog.getTranslationX()+step));
                                 step += 1;
                                 rightAnimator.start();
