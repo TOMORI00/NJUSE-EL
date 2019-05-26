@@ -392,7 +392,7 @@ public class GameThree_first_Map extends Activity {
                                 timer.cancel();
                                 if(((map.dogY==2)&&(map.dogX==2))||((map.dogY==3)&&(map.dogX==2))) {
                                     final AlertDialog.Builder alterDialog = new AlertDialog.Builder(GameThree_first_Map.this);
-                                    alterDialog.setTitle("呀哒!");
+                                    alterDialog.setTitle("恭喜!");
                                     alterDialog.setMessage("狗子的第一次训练成功了！");
                                     alterDialog.setPositiveButton("Nice", new DialogInterface.OnClickListener() {
                                         @Override

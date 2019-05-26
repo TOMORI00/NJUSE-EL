@@ -110,7 +110,7 @@ public class DogNewLife extends Activity {
                             public void run() {
                                 timer.cancel();
                                 final AlertDialog.Builder alterDialog = new AlertDialog.Builder(DogNewLife.this);
-                                alterDialog.setTitle("YaDa!");
+                                alterDialog.setTitle("噢!");
                                 alterDialog.setMessage("看啊！狗子经过训练已经可以自己解决问题了");
                                 alterDialog.setPositiveButton("真是不错", new DialogInterface.OnClickListener() {
                                     @Override

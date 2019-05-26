@@ -425,7 +425,7 @@ public class GameThree_second_Map extends Activity {
                                 timer.cancel();
                                 if(((map.dogY==2)&&(map.dogX==2))||((map.dogY==1)&&(map.dogX==2))) {
                                     final AlertDialog.Builder alterDialog = new AlertDialog.Builder(GameThree_second_Map.this);
-                                    alterDialog.setTitle("YaDa!");
+                                    alterDialog.setTitle("恭喜!");
                                     alterDialog.setMessage("狗子的第二次训练也成功了！");
                                     alterDialog.setPositiveButton("Nice", new DialogInterface.OnClickListener() {
                                         @Override
