@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Evolution</string>
+    <string name="evolution">Evolution</string>
+    <string name="a_product_of_us">A product of us</string>
+    <string name="textview">TextView</string>
+    <string name="touch_screen_to_continue">Touch Screen to continue</string>
+    <string name="_3_4">请用二进制表示3+4的结果\n（从上到下）</string>
+</resources>

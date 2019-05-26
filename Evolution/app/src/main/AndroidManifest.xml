@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evolution">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dog_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GameTwo_solve"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".DogNewLife"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ChangePageTwo"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ChangePageOne"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ThanksScreen"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".IntroductionPage2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".GameThree_second_Map" android:screenOrientation="landscape"/>
+        <activity android:name=".GameThree_first_Map" android:screenOrientation="landscape"/>
+        <activity android:name=".GameTwo" android:screenOrientation="landscape" />
+        <activity android:name=".GameOne" android:screenOrientation="landscape"/>
+        <activity android:name=".IntroductionPage" android:screenOrientation="landscape"/>
+        <activity android:name=".StartScreen" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".Bgm"></service>
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamethreebackground"
+    tools:context=".DogNewLife">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="644dp"
+        android:layout_marginTop="368dp"
+        android:onClick="next"
+        android:text="Button"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/newlife"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/dog_1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="202dp"
+        android:layout_height="349dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="     类脑芯片通过模拟大脑的神经元交互方式设计，利用神经元计算存储不分以及能 进行网络化并行运算的特点设计不同于以往的硬件架构，通过训练让其形成“记忆”，产生信息处理能力.\n    你看狗子经过前面的训练已经可以自己行动了."
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

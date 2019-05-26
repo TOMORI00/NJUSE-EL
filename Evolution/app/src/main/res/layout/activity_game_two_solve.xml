@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@android:color/background_light"
+    tools:context=".GameTwo_solve">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="55dp"
+            android:showText="true"
+            android:switchMinWidth="40dp"
+            android:textOff="0"
+            android:textOn="1"
+            android:thumb="@android:color/transparent" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:showText="true"
+            android:switchMinWidth="40dp"
+            android:textOff="0"
+            android:textOn="1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/switch1"
+            android:thumb="@android:color/transparent" />
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:showText="true"
+            android:textOn="1"
+            android:textOff="0"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/switch2"
+            android:switchMinWidth="40dp"
+            android:thumb="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            />
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:showText="true"
+            android:textOn="1"
+            android:textOff="0"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/switch3"
+            android:switchMinWidth="40dp"
+            android:thumb="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/btn_1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/switch4"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/confirmbutton"
+            android:onClick="check"
+            android:text="确定" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_4" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/p_0000" />
+
+</LinearLayout>
