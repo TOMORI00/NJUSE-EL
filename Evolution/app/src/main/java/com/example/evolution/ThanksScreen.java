@@ -69,7 +69,7 @@ public class ThanksScreen extends Activity {
                 });
             }
         };
-        timer2.schedule(tak,6000);
+        timer2.schedule(tak,7500);
     }
 
     private void go() {

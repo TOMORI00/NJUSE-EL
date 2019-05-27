@@ -11,12 +11,14 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
         android:text="狗子的进化还远未结束，于未来相见之日它又会变成什么样子呢？"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -45,15 +45,18 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="633dp"
+        android:layout_width="wrap_content"
         android:layout_height="19dp"
-        android:layout_marginStart="88dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="狗子进化了！！！我们现在给它安上了集成电路芯片"
         android:textColor="@android:color/background_light"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.08" />

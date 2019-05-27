@@ -12,6 +12,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="624dp"
+        android:layout_marginBottom="4dp"
         android:onClick="next"
         android:text="Button"
         android:visibility="invisible"
@@ -22,40 +24,40 @@
         android:id="@+id/goUp"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="3dp"
         android:background="@drawable/arrow_up"
         android:text="up"
-        app:layout_constraintBottom_toTopOf="@+id/goLeft"
-        app:layout_constraintStart_toEndOf="@+id/goLeft" />
+        app:layout_constraintBottom_toTopOf="@+id/goRight"
+        app:layout_constraintEnd_toStartOf="@+id/goRight" />
 
     <ImageButton
         android:id="@+id/goLeft"
         android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="54dp"
+        android:layout_height="51dp"
         android:background="@drawable/arrow_left"
         android:text="left"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/goDown"
+        app:layout_constraintEnd_toStartOf="@+id/goUp"
+        app:layout_constraintTop_toTopOf="@+id/goRight" />
 
     <ImageButton
         android:id="@+id/goRight"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/arrrow_right"
         android:text="right"
         app:layout_constraintBottom_toTopOf="@+id/goDown"
-        app:layout_constraintStart_toEndOf="@+id/goDown" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
         android:id="@+id/goDown"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/arrow_down"
         android:text="down"
-        app:layout_constraintStart_toEndOf="@+id/goLeft"
-        app:layout_constraintTop_toBottomOf="@+id/goLeft" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/goLeft" />
 
     <TextView
         android:id="@+id/textView10"
@@ -110,18 +112,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
         android:layout_marginBottom="128dp"
-        android:text="                                                                                                                                                                                                                    "
+        android:text="                                                                                                                                                                                                                                                                                       "
         app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="153dp"
-        android:text="                                                                                                                                                                                                                    "
+        android:text="                                                                                                                                                                                                                                                                     "
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -129,11 +133,14 @@
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="339dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
         android:text="目前集成电路芯片都是利用逻辑电路来进行计算的，\n这门上的锁便是之中的一种——译码器"
         android:textColor="@android:color/background_light"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -48,7 +48,7 @@ public class StartScreen extends Activity {
             action2();
             action3();
             action4();
-//            action5();
+            action5();
         }catch(Exception e) {}
     }
     //25
@@ -103,7 +103,7 @@ public class StartScreen extends Activity {
                 a.setProgress(a.getProgress()+25);
                 b.setProgress(b.getProgress()+25);
                 lock = true;
-                clicked();
+//                clicked();
             }
         };
         Timer timer = new Timer();

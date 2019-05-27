@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/dog_2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/dog_2"
         android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
