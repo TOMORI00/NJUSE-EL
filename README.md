@@ -6,6 +6,6 @@ Hope we can do something interesting
 
 本项目已于2019年5月30日通过答辩，获得南京大学软件学院EL比赛二等奖
 
-So，we finallymade some interesting things
+So，we finally made some interesting things
 
 That`s awesome！！！
