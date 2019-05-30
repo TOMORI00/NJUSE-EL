@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="    所谓神经元类脑芯片。是生物计算机的发展方向，通过模拟人脑的演算过程，利用训练进行编程，由于其并行运算的特点，能够达到比通常的电子计算机高得多的计算速度和问题解决能力。\n    目前世界上有许多科学家正在努力让狗子真正进化到这一步，并且取得了不小的进展。"
+        android:text="@string/n"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold"

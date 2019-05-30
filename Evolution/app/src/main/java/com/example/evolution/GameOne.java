@@ -255,7 +255,7 @@ public class GameOne extends AppCompatActivity {
         if(key3==0) {
             final AlertDialog.Builder dialog = new AlertDialog.Builder(GameOne.this);
             dialog.setTitle("狗子");
-            dialog.setMessage("我们把它叫做ENIAC");
+            dialog.setMessage("它叫RCA501");
             dialog.setCancelable(false);
             dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -271,7 +271,7 @@ public class GameOne extends AppCompatActivity {
         if(key2==0) {
             final AlertDialog.Builder dialog = new AlertDialog.Builder(GameOne.this);
             dialog.setTitle("这是一座桥");
-            dialog.setMessage("搭载第一代晶体管计算机的ENIAC体重达30吨，而本桥的负重为29吨，现在知道晶体管计算机有多重了吧");
+            dialog.setMessage("搭载晶体管计算机的狗子体重达30吨，而本桥的负重为29吨，现在知道晶体管计算机有多重了吧");
             dialog.setCancelable(false);
             dialog.setPositiveButton("狗子出师不利，不幸遇难，不过我们给它上了个buff，再走一遍试试吧", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -288,7 +288,7 @@ public class GameOne extends AppCompatActivity {
         if(key==0) {
             final AlertDialog.Builder dialog = new AlertDialog.Builder(GameOne.this);
             dialog.setTitle("警告");
-            dialog.setMessage("ENIAC过热了，谁叫晶体管发热太多，请赶快前往下一区域（一直向前走哦）");
+            dialog.setMessage("狗子过热了，谁叫晶体管发热太多，请赶快前往下一区域（一直向前走哦）");
             dialog.setCancelable(false);
             dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -304,7 +304,7 @@ public class GameOne extends AppCompatActivity {
         if(key4==0) {
             final AlertDialog.Builder dialog = new AlertDialog.Builder(GameOne.this);
             dialog.setTitle("这是城市");
-            dialog.setMessage("ENIAC的能耗达到150KW，实在大到不行，当它行动时，整个费城的灯光都为之暗淡");
+            dialog.setMessage("狗子的能耗达到150KW，实在大到不行，当它行动时，整座城市的灯光都为之暗淡");
             dialog.setCancelable(false);
             dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialogInterface, int i) {

@@ -5,4 +5,5 @@
     <string name="textview">TextView</string>
     <string name="touch_screen_to_continue">Touch Screen to continue</string>
     <string name="_3_4">请用二进制表示3+4的结果\n（从上到下）</string>
+    <string name="n">\t\t\t\t所谓类脑芯片。是未来计算机的发展方向之一，通过模拟人脑的分布式运算特点，利用训练进行自发编程，由于其并行运算的特点，能够达到比通常的电子计算机高得多的计算速度和问题解决能力。在人工智能领域有着很大的发展空间。  \n目前世界上有许多科学家正在努力让狗子真正进化到这一步，并且取得了不小的进展。如IBM称如果 48 颗TrueNorth芯片组建起具有 4800 万个电子神经元的网络，那这48颗芯片带来的智力水平将相当于普通老鼠。</string>
 </resources>
