@@ -1,11 +1,9 @@
-# EL：a tiny competition on making a tiny program to ‘popularization of science‘. 
+# EL比赛：Easy Life，南京大学软件学院软件工程与计算课程比赛 本次比赛主题为“开发一个某种新科技的科普小程序” 
 
-Members: 戴祺佳、吴泓宇、曹邵衡、徐宇轩
+成员: 戴祺佳、吴泓宇、曹邵衡、徐宇轩
 
-Hope we can do something interesting
+本项目已于2019年5月30日通过答辩，获比赛二等奖头名
 
-本项目已于2019年5月30日通过答辩，获得南京大学软件学院EL比赛二等奖
+项目程序为使用 java 语言 在 Android Studio 开发的 Android 应用程序
 
-So，we finally made some interesting things
-
-That`s awesome！！！
+简单介绍了计算机硬件的发展史以及对“借鉴神经系统生长方式进行自编程的具有分布式计算能力的类脑芯片”的“科普”
